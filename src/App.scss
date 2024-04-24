@@ -1,6 +1,6 @@
 @import "./variables.scss";
 
-$fa-font-path: "@font-awesome/fonts";
+$fa-font-path: "font-awesome/fonts";
 @import "font-awesome/scss/font-awesome";
 @import "@openedx/paragon/src/Form/_variables.scss"; // for $input-box-shadow. TODO: fix this so it's included in Paragon root variables export
 $input-focus-box-shadow: $input-box-shadow;
