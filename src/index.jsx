@@ -28,13 +28,18 @@ import messages from './i18n';
 
 import App from './App';
 import NoticesWrapper from './components/NoticesWrapper';
+import './index.scss';
 
 subscribe(APP_READY, () => {
   ReactDOM.render(
     <AppProvider store={store}>
       <NoticesWrapper>
         <Routes>
-          <Route path="/" element={<PageWrap><App /></PageWrap>} />
+          <Route path="/" element={<PageWrap>
+            <LearnerDashboardHeader />
+            <App />
+            <Footer logo={getConfig().LOGO_POWERED_BY_OPEN_EDX_URL_SVG} />
+          </PageWrap>} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </NoticesWrapper>

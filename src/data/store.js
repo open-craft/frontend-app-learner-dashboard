@@ -3,8 +3,6 @@ import thunkMiddleware from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension/logOnlyInProduction';
 import { createLogger } from 'redux-logger';
 
-import apiTestUtils from 'data/services/lms/fakeData/testUtils';
-
 import reducer, { actions, selectors } from './redux';
 
 export const createStore = () => {
@@ -21,10 +19,13 @@ export const createStore = () => {
    * Dev tools for redux work
    */
   if (process.env.NODE_ENV === 'development') {
-    window.store = store;
-    window.actions = actions;
-    window.selectors = selectors;
-    window.apiTestUtils = apiTestUtils(store);
+    import('./services/lms/fakeData/testUtils').then((module) => {
+      const apiTestUtils = module.default;
+      window.store = store;
+      window.actions = actions;
+      window.selectors = selectors;
+      window.apiTestUtils = apiTestUtils(store);
+    });
   }
 
   return store;

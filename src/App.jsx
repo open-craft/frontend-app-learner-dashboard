@@ -1,11 +1,12 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
+import { getConfig } from '@edx/frontend-platform';
 import { useIntl } from '@edx/frontend-platform/i18n';
 import { logError } from '@edx/frontend-platform/logging';
+import { ErrorPage, AppContext } from '@edx/frontend-platform/react';
 import { initializeHotjar } from '@edx/frontend-enterprise-hotjar';
 
-import { ErrorPage, AppContext } from '@edx/frontend-platform/react';
 import Footer from '@edx/frontend-component-footer';
 import { Alert } from '@openedx/paragon';
 
@@ -27,9 +28,7 @@ import fakeData from 'data/services/lms/fakeData/courses';
 import AppWrapper from 'containers/WidgetContainers/AppWrapper';
 import LearnerDashboardHeader from 'containers/LearnerDashboardHeader';
 
-import { getConfig } from '@edx/frontend-platform';
 import messages from './messages';
-import './App.scss';
 
 export const App = () => {
   const { authenticatedUser } = React.useContext(AppContext);
@@ -95,7 +94,6 @@ export const App = () => {
       </Helmet>
       <div>
         <AppWrapper>
-          <LearnerDashboardHeader />
           <main>
             {hasNetworkFailure
               ? (
@@ -109,7 +107,6 @@ export const App = () => {
               )}
           </main>
         </AppWrapper>
-        <Footer logo={getConfig().LOGO_POWERED_BY_OPEN_EDX_URL_SVG} />
         <ZendeskFab />
       </div>
     </>
