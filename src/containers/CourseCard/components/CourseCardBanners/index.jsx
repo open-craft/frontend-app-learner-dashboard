@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { reduxHooks } from 'hooks';
+import { reduxHooks } from '@/hooks';
 
 import CourseBanner from './CourseBanner';
 import CertificateBanner from './CertificateBanner';

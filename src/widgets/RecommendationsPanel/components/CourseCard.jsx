@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import { Card, Hyperlink, Truncate } from '@openedx/paragon';
 
-import { useIsCollapsed } from 'containers/CourseCard/hooks';
+import { useIsCollapsed } from '@/containers/CourseCard/hooks';
 import useCourseCardData from './hooks';
 import './index.scss';
 

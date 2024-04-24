@@ -4,8 +4,8 @@ import { getConfig } from '@edx/frontend-platform';
 import { useIntl } from '@edx/frontend-platform/i18n';
 import { Button } from '@openedx/paragon';
 
-import urls from 'data/services/lms/urls';
-import { reduxHooks } from 'hooks';
+import urls from '@/data/services/lms/urls';
+import { reduxHooks } from '@/hooks';
 
 import AuthenticatedUserDropdown from './AuthenticatedUserDropdown';
 import { useIsCollapsed, findCoursesNavClicked } from '../hooks';

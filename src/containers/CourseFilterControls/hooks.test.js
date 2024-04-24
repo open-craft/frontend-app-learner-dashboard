@@ -1,9 +1,9 @@
 import { useToggle } from '@openedx/paragon';
 
 import { MockUseState } from 'testUtils';
-import { reduxHooks } from 'hooks';
+import { reduxHooks } from '@/hooks';
 
-import track from 'tracking';
+import track from '@/tracking';
 
 import * as hooks from './hooks';
 

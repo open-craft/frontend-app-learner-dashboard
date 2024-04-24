@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { PluginSlot } from '@openedx/frontend-plugin-framework';
 
-import hooks from 'widgets/ProductRecommendations/hooks';
+import hooks from '@/widgets/ProductRecommendations/hooks';
 
 export const WidgetSidebar = ({ setSidebarShowing }) => {
   const { inRecommendationsVariant, isExperimentActive } = hooks.useShowRecommendationsFooter();

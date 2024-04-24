@@ -17,15 +17,15 @@ import {
 
 import { useIntl, IntlProvider } from '@edx/frontend-platform/i18n';
 
-import { useFormatDate } from 'utils/hooks';
+import { useFormatDate } from '@/utils/hooks';
 
-import api from 'data/services/lms/api';
-import * as fakeData from 'data/services/lms/fakeData/courses';
-import { RequestKeys, RequestStates } from 'data/constants/requests';
-import reducers from 'data/redux';
-import { selectors } from 'data/redux';
-import { apiHooks } from 'hooks';
-import { cardId as genCardId } from 'data/redux/app/reducer';
+import api from '@/data/services/lms/api';
+import * as fakeData from '@/data/services/lms/fakeData/courses';
+import { RequestKeys, RequestStates } from '@/data/constants/requests';
+import reducers from '@/data/redux';
+import { selectors } from '@/data/redux';
+import { apiHooks } from '@/hooks';
+import { cardId as genCardId } from '@/data/redux/app/reducer';
 
 import messages from 'i18n';
 

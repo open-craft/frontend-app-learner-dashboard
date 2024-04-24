@@ -1,5 +1,5 @@
-import api from 'data/services/lms/api';
-import { createEventTracker, createLinkTracker } from 'data/services/segment/utils';
+import api from '@/data/services/lms/api';
+import { createEventTracker, createLinkTracker } from '@/data/services/segment/utils';
 import { categories, eventNames } from '../constants';
 import * as module from './course';
 

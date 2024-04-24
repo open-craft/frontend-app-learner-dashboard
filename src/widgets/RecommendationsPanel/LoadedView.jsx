@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 import { useIntl } from '@edx/frontend-platform/i18n';
 import { Button } from '@openedx/paragon';
 import { Search } from '@openedx/paragon/icons';
-import { baseAppUrl } from 'data/services/lms/urls';
+import { baseAppUrl } from '@/data/services/lms/urls';
 
-import { reduxHooks } from 'hooks';
+import { reduxHooks } from '@/hooks';
 import track from './track';
 import CourseCard from './components/CourseCard';
 import messages from './messages';

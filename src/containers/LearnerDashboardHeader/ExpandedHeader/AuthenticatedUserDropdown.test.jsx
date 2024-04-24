@@ -1,6 +1,6 @@
 import { shallow } from '@edx/react-unit-test-utils';
 
-import { reduxHooks } from 'hooks';
+import { reduxHooks } from '@/hooks';
 import { getConfig } from '@edx/frontend-platform';
 import { AppContext } from '@edx/frontend-platform/react';
 import { AuthenticatedUserDropdown } from './AuthenticatedUserDropdown';

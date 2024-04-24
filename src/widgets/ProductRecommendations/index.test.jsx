@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from '@edx/react-unit-test-utils';
-import { reduxHooks } from 'hooks';
+import { reduxHooks } from '@/hooks';
 import hooks from './hooks';
 import ProductRecommendations from './index';
 import LoadingView from './components/LoadingView';

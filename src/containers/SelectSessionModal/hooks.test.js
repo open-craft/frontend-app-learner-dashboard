@@ -1,8 +1,8 @@
 import { useIntl } from '@edx/frontend-platform/i18n';
-import track from 'tracking';
+import track from '@/tracking';
 
 import { MockUseState } from 'testUtils';
-import { reduxHooks, apiHooks } from 'hooks';
+import { reduxHooks, apiHooks } from '@/hooks';
 
 import { LEAVE_OPTION } from './constants';
 import messages from './messages';

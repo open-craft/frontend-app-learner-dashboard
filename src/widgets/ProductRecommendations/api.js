@@ -1,5 +1,5 @@
-import { get, stringifyUrl } from 'data/services/lms/utils';
-import urls from 'data/services/lms/urls';
+import { get, stringifyUrl } from '@/data/services/lms/utils';
+import urls from '@/data/services/lms/urls';
 
 export const crossProductAndAmplitudeRecommendationsUrl = (courseId) => `${urls.getApiUrl()}/edx_recommendations/learner_dashboard/cross_product/${courseId}/`;
 export const amplitudeRecommendationsUrl = () => `${urls.getApiUrl()}/edx_recommendations/learner_dashboard/amplitude/v2/`;

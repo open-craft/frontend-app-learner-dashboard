@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from '@edx/react-unit-test-utils';
 import { Hyperlink } from '@openedx/paragon';
 
-import { reduxHooks } from 'hooks';
+import { reduxHooks } from '@/hooks';
 import { formatMessage } from 'testUtils';
 import { CourseBanner } from './CourseBanner';
 

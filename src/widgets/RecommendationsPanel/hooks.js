@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { StrictDict } from 'utils';
-import { RequestStates } from 'data/constants/requests';
+import { StrictDict } from '@/utils';
+import { RequestStates } from '@/data/constants/requests';
 
 import * as module from './hooks';
 import testData from './testData';

@@ -1,6 +1,6 @@
-import { StrictDict } from 'utils';
+import { StrictDict } from '@/utils';
 
-import { reduxHooks } from 'hooks';
+import { reduxHooks } from '@/hooks';
 
 import ApprovedContent from './views/ApprovedContent';
 import EligibleContent from './views/EligibleContent';

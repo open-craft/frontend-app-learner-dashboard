@@ -1,8 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-import { StrictDict } from 'utils';
+import { StrictDict } from '@/utils';
 
-import { RequestStates, RequestKeys } from 'data/constants/requests';
+import { RequestStates, RequestKeys } from '@/data/constants/requests';
 
 const initialState = {
   [RequestKeys.initialize]: { status: RequestStates.inactive },

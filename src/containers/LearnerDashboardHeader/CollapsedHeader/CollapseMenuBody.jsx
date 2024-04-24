@@ -6,8 +6,8 @@ import { useIntl } from '@edx/frontend-platform/i18n';
 import { AppContext } from '@edx/frontend-platform/react';
 import { Button, Badge } from '@openedx/paragon';
 
-import urls from 'data/services/lms/urls';
-import { reduxHooks } from 'hooks';
+import urls from '@/data/services/lms/urls';
+import { reduxHooks } from '@/hooks';
 
 import { findCoursesNavDropdownClicked } from '../hooks';
 import messages from '../messages';

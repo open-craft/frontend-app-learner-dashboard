@@ -3,7 +3,7 @@ import React from 'react';
 import { useIntl } from '@edx/frontend-platform/i18n';
 import { useWindowSize, breakpoints } from '@openedx/paragon';
 
-import { apiHooks } from 'hooks';
+import { apiHooks } from '@/hooks';
 import { MockUseState } from 'testUtils';
 
 import appMessages from 'messages';

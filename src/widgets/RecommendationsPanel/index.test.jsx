@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from '@edx/react-unit-test-utils';
 
-import LookingForChallengeWidget from 'widgets/LookingForChallengeWidget';
+import LookingForChallengeWidget from '@/widgets/LookingForChallengeWidget';
 import hooks from './hooks';
 import mockData from './mockData';
 import LoadedView from './LoadedView';

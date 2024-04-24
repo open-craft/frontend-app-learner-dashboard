@@ -1,6 +1,6 @@
 import React from 'react';
 
-import MasqueradeBar from 'containers/MasqueradeBar';
+import MasqueradeBar from '@/containers/MasqueradeBar';
 import ConfirmEmailBanner from './ConfirmEmailBanner';
 
 import CollapsedHeader from './CollapsedHeader';

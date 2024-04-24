@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import { Locked } from '@openedx/paragon/icons';
 import { useIntl } from '@edx/frontend-platform/i18n';
 
-import track from 'tracking';
-import { reduxHooks } from 'hooks';
+import track from '@/tracking';
+import { reduxHooks } from '@/hooks';
 import useActionDisabledState from '../hooks';
 
 import ActionButton from './ActionButton';

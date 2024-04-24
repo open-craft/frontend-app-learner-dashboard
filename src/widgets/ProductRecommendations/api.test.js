@@ -1,4 +1,4 @@
-import { get, stringifyUrl } from 'data/services/lms/utils';
+import { get, stringifyUrl } from '@/data/services/lms/utils';
 
 import api, { crossProductAndAmplitudeRecommendationsUrl, amplitudeRecommendationsUrl, recommendationsContextUrl } from './api';
 

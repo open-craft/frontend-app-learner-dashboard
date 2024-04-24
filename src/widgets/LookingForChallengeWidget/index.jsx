@@ -4,9 +4,9 @@ import { useIntl } from '@edx/frontend-platform/i18n';
 import { Card, Hyperlink, Icon } from '@openedx/paragon';
 import { ArrowForward } from '@openedx/paragon/icons';
 
-import { reduxHooks } from 'hooks';
+import { reduxHooks } from '@/hooks';
 import moreCoursesSVG from 'assets/more-courses-sidewidget.svg';
-import { baseAppUrl } from 'data/services/lms/urls';
+import { baseAppUrl } from '@/data/services/lms/urls';
 
 import track from '../RecommendationsPanel/track';
 import messages from './messages';

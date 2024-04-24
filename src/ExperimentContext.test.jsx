@@ -2,7 +2,7 @@ import React from 'react';
 import { waitFor, render } from '@testing-library/react';
 import { useWindowSize } from '@openedx/paragon';
 
-import api from 'widgets/ProductRecommendations/api';
+import api from '@/widgets/ProductRecommendations/api';
 import { MockUseState } from 'testUtils';
 
 import * as experiment from 'ExperimentContext';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Spinner } from '@openedx/paragon';
 
-import { useDashboardMessages } from 'containers/Dashboard/hooks';
+import { useDashboardMessages } from '@/containers/Dashboard/hooks';
 
 export const LoadingView = () => {
   const { spinnerScreenReaderText } = useDashboardMessages();

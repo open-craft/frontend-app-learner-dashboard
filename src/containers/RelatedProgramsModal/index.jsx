@@ -7,7 +7,7 @@ import {
   Container, Row, Col, ModalDialog,
 } from '@openedx/paragon';
 
-import { reduxHooks } from 'hooks';
+import { reduxHooks } from '@/hooks';
 import ProgramCard from './components/ProgramCard';
 import messages from './messages';
 import './index.scss';

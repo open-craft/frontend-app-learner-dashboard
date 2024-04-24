@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from '@edx/react-unit-test-utils';
 
 import { formatMessage } from 'testUtils';
-import { reduxHooks } from 'hooks';
+import { reduxHooks } from '@/hooks';
 import messages from './messages';
 import ProviderLink from './components/ProviderLink';
 import RejectedContent from './RejectedContent';

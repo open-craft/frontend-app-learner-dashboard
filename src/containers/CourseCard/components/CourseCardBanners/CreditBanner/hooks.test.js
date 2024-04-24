@@ -1,5 +1,5 @@
-import { keyStore } from 'utils';
-import { reduxHooks } from 'hooks';
+import { keyStore } from '@/utils';
+import { reduxHooks } from '@/hooks';
 
 import ApprovedContent from './views/ApprovedContent';
 import EligibleContent from './views/EligibleContent';

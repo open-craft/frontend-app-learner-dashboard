@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { MockUseState } from 'testUtils';
-import { RequestStates } from 'data/constants/requests';
+import { RequestStates } from '@/data/constants/requests';
 
 import api from './api';
 import * as hooks from './hooks';

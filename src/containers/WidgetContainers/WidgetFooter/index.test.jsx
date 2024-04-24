@@ -1,7 +1,7 @@
 import { shallow } from '@edx/react-unit-test-utils';
 
-import hooks from 'widgets/ProductRecommendations/hooks';
-import { mockFooterRecommendationsHook } from 'widgets/ProductRecommendations/testData';
+import hooks from '@/widgets/ProductRecommendations/hooks';
+import { mockFooterRecommendationsHook } from '@/widgets/ProductRecommendations/testData';
 import WidgetFooter from '.';
 
 jest.mock('widgets/LookingForChallengeWidget', () => 'LookingForChallengeWidget');

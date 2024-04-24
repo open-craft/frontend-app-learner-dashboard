@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import { ActionRow } from '@openedx/paragon';
 
-import { reduxHooks } from 'hooks';
+import { reduxHooks } from '@/hooks';
 
 import UpgradeButton from './UpgradeButton';
 import SelectSessionButton from './SelectSessionButton';

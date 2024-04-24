@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import { Container, Col, Row } from '@openedx/paragon';
 
-import WidgetFooter from 'containers/WidgetContainers/WidgetFooter';
+import WidgetFooter from '@/containers/WidgetContainers/WidgetFooter';
 import hooks from './hooks';
 
 export const columnConfig = {

@@ -1,4 +1,4 @@
-import { reduxHooks } from 'hooks';
+import { reduxHooks } from '@/hooks';
 
 import * as hooks from './hooks';
 

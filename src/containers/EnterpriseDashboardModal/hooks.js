@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { StrictDict } from 'utils';
-import track from 'tracking';
-import { reduxHooks } from 'hooks';
+import { StrictDict } from '@/utils';
+import track from '@/tracking';
+import { reduxHooks } from '@/hooks';
 
 import * as module from './hooks';
 

@@ -1,13 +1,13 @@
 import { shallow } from '@edx/react-unit-test-utils';
 
-import { reduxHooks } from 'hooks';
+import { reduxHooks } from '@/hooks';
 
-import EnterpriseDashboardModal from 'containers/EnterpriseDashboardModal';
-import SelectSessionModal from 'containers/SelectSessionModal';
-import CoursesPanel from 'containers/CoursesPanel';
+import EnterpriseDashboardModal from '@/containers/EnterpriseDashboardModal';
+import SelectSessionModal from '@/containers/SelectSessionModal';
+import CoursesPanel from '@/containers/CoursesPanel';
 
-import LoadedWidgetSidebar from 'containers/WidgetContainers/LoadedSidebar';
-import NoCoursesWidgetSidebar from 'containers/WidgetContainers/NoCoursesSidebar';
+import LoadedWidgetSidebar from '@/containers/WidgetContainers/LoadedSidebar';
+import NoCoursesWidgetSidebar from '@/containers/WidgetContainers/NoCoursesSidebar';
 
 import DashboardLayout from './DashboardLayout';
 import LoadingView from './LoadingView';

@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import { getAuthenticatedUser } from '@edx/frontend-platform/auth';
 
-import { RequestStates, RequestKeys } from 'data/constants/requests';
-import { StrictDict } from 'utils';
-import { reduxHooks } from 'hooks';
-import { SortKeys } from 'data/constants/app';
+import { RequestStates, RequestKeys } from '@/data/constants/requests';
+import { StrictDict } from '@/utils';
+import { reduxHooks } from '@/hooks';
+import { SortKeys } from '@/data/constants/app';
 import { useWindowSize, breakpoints } from '@openedx/paragon';
-import { useExperimentContext } from 'ExperimentContext';
+import { useExperimentContext } from '@/ExperimentContext';
 import { control, treatment, noExperiment } from './constants';
 import { activateProductRecommendationsExperiment, trackProductRecommendationsViewed } from './optimizelyExperiment';
 import { recommendationsViewed } from './track';

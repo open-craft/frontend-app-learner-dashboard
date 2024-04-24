@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { reduxHooks } from 'hooks';
-import { RequestKeys } from 'data/constants/requests';
-import EnterpriseDashboardModal from 'containers/EnterpriseDashboardModal';
-import SelectSessionModal from 'containers/SelectSessionModal';
-import CoursesPanel from 'containers/CoursesPanel';
+import { reduxHooks } from '@/hooks';
+import { RequestKeys } from '@/data/constants/requests';
+import EnterpriseDashboardModal from '@/containers/EnterpriseDashboardModal';
+import SelectSessionModal from '@/containers/SelectSessionModal';
+import CoursesPanel from '@/containers/CoursesPanel';
 
-import LoadedSidebar from 'containers/WidgetContainers/LoadedSidebar';
-import NoCoursesSidebar from 'containers/WidgetContainers/NoCoursesSidebar';
+import LoadedSidebar from '@/containers/WidgetContainers/LoadedSidebar';
+import NoCoursesSidebar from '@/containers/WidgetContainers/NoCoursesSidebar';
 
 import LoadingView from './LoadingView';
 import DashboardLayout from './DashboardLayout';

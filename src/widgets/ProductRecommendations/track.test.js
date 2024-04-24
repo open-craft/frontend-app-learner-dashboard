@@ -1,4 +1,4 @@
-import { createLinkTracker, createEventTracker } from 'data/services/segment/utils';
+import { createLinkTracker, createEventTracker } from '@/data/services/segment/utils';
 import { bootCamp, treatment, control } from './constants';
 import {
   eventNames,

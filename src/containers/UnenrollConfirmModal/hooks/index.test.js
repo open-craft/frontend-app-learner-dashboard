@@ -1,4 +1,4 @@
-import { apiHooks } from 'hooks';
+import { apiHooks } from '@/hooks';
 import { MockUseState } from 'testUtils';
 
 import * as reasons from './reasons';

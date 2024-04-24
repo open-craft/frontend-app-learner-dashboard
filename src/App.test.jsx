@@ -6,11 +6,11 @@ import Footer from '@edx/frontend-component-footer';
 import { useIntl } from '@edx/frontend-platform/i18n';
 import { getConfig } from '@edx/frontend-platform';
 
-import { RequestKeys } from 'data/constants/requests';
-import { reduxHooks } from 'hooks';
-import Dashboard from 'containers/Dashboard';
-import LearnerDashboardHeader from 'containers/LearnerDashboardHeader';
-import AppWrapper from 'containers/WidgetContainers/AppWrapper';
+import { RequestKeys } from '@/data/constants/requests';
+import { reduxHooks } from '@/hooks';
+import Dashboard from '@/containers/Dashboard';
+import LearnerDashboardHeader from '@/containers/LearnerDashboardHeader';
+import AppWrapper from '@/containers/WidgetContainers/AppWrapper';
 import { ExperimentProvider } from 'ExperimentContext';
 import { App } from './App';
 import messages from './messages';

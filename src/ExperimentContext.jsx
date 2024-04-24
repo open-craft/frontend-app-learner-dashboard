@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useWindowSize, breakpoints } from '@openedx/paragon';
-import { StrictDict } from 'utils';
-import api from 'widgets/ProductRecommendations/api';
+import { StrictDict } from '@/utils';
+import api from '@/widgets/ProductRecommendations/api';
 import * as module from './ExperimentContext';
 
 export const state = StrictDict({

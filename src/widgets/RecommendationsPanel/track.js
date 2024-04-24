@@ -1,6 +1,6 @@
-import { StrictDict } from 'utils';
-import { createLinkTracker, createEventTracker } from 'data/services/segment/utils';
-import track from 'tracking';
+import { StrictDict } from '@/utils';
+import { createLinkTracker, createEventTracker } from '@/data/services/segment/utils';
+import track from '@/tracking';
 
 export const eventNames = StrictDict({
   recommendedCourseClicked: 'edx.bi.user.recommended.course.click',

@@ -1,4 +1,4 @@
-import { StrictDict } from 'utils';
+import { StrictDict } from '@/utils';
 import optimizelyClient from './optimizely';
 
 export const PRODUCT_RECOMMENDATIONS_EXP_KEY = 'learner_dashboard_product_recommendations_exp';

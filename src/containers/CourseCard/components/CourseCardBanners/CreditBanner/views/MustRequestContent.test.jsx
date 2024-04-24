@@ -3,7 +3,7 @@ import { shallow } from '@edx/react-unit-test-utils';
 
 import { formatMessage } from 'testUtils';
 
-import { reduxHooks } from 'hooks';
+import { reduxHooks } from '@/hooks';
 import messages from './messages';
 import hooks from './hooks';
 import ProviderLink from './components/ProviderLink';

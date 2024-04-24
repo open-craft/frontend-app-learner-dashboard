@@ -1,5 +1,5 @@
-import { StrictDict } from 'utils';
-import { createLinkTracker, createEventTracker } from 'data/services/segment/utils';
+import { StrictDict } from '@/utils';
+import { createLinkTracker, createEventTracker } from '@/data/services/segment/utils';
 import { courseTypeToProductLineMap, convertCourseRunKeyToCourseKey } from './utils';
 
 export const eventNames = StrictDict({

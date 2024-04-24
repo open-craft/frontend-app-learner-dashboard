@@ -2,8 +2,8 @@ import React from 'react';
 import { waitFor } from '@testing-library/react';
 
 import { MockUseState } from 'testUtils';
-import { RequestStates } from 'data/constants/requests';
-import { reduxHooks } from 'hooks';
+import { RequestStates } from '@/data/constants/requests';
+import { reduxHooks } from '@/hooks';
 import { useWindowSize } from '@openedx/paragon';
 import { getAuthenticatedUser } from '@edx/frontend-platform/auth';
 import { useExperimentContext } from 'ExperimentContext';

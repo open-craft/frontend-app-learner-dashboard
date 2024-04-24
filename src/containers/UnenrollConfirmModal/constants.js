@@ -1,5 +1,5 @@
 /* eslint-disable quotes */
-import { StrictDict } from 'utils';
+import { StrictDict } from '@/utils';
 
 export const reasonKeys = StrictDict({
   prereqs: 'prereqs',

@@ -11,10 +11,13 @@ const config = createConfig('eslint', {
 });
 
 config.settings = {
-  "import/resolver": {
+  'import/resolver': {
     node: {
       paths: ["src", "node_modules"],
       extensions: [".js", ".jsx"],
+    },
+    alias: {
+      map: [["@", "./src"]],
     },
   },
 };

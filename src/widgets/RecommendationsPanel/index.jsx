@@ -1,6 +1,6 @@
 import React from 'react';
 
-import LookingForChallengeWidget from 'widgets/LookingForChallengeWidget';
+import LookingForChallengeWidget from '@/widgets/LookingForChallengeWidget';
 import LoadingView from './LoadingView';
 import LoadedView from './LoadedView';
 import hooks from './hooks';

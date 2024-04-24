@@ -10,23 +10,23 @@ import { initializeHotjar } from '@edx/frontend-enterprise-hotjar';
 import Footer from '@edx/frontend-component-footer';
 import { Alert } from '@openedx/paragon';
 
-import { RequestKeys } from 'data/constants/requests';
-import store from 'data/store';
+import { RequestKeys } from '@/data/constants/requests';
+import store from '@/data/store';
 import {
   selectors,
   actions,
-} from 'data/redux';
-import { reduxHooks } from 'hooks';
-import Dashboard from 'containers/Dashboard';
-import ZendeskFab from 'components/ZendeskFab';
-import { ExperimentProvider } from 'ExperimentContext';
+} from '@/data/redux';
+import { reduxHooks } from '@/hooks';
+import Dashboard from '@/containers/Dashboard';
+import ZendeskFab from '@/components/ZendeskFab';
+import { ExperimentProvider } from '@/ExperimentContext';
 
-import track from 'tracking';
+import track from './tracking';
 
-import fakeData from 'data/services/lms/fakeData/courses';
+import fakeData from '@/data/services/lms/fakeData/courses';
 
-import AppWrapper from 'containers/WidgetContainers/AppWrapper';
-import LearnerDashboardHeader from 'containers/LearnerDashboardHeader';
+import AppWrapper from '@/containers/WidgetContainers/AppWrapper';
+import LearnerDashboardHeader from '@/containers/LearnerDashboardHeader';
 
 import messages from './messages';
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from '@edx/react-unit-test-utils';
 
-import { reduxHooks } from 'hooks';
+import { reduxHooks } from '@/hooks';
 import { formatMessage } from 'testUtils';
-import track from 'tracking';
+import track from '@/tracking';
 
 import messages from './messages';
 import EligibleContent from './EligibleContent';

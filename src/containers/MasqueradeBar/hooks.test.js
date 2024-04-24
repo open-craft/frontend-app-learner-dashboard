@@ -1,5 +1,5 @@
 import { MockUseState } from 'testUtils';
-import { apiHooks, reduxHooks } from 'hooks';
+import { apiHooks, reduxHooks } from '@/hooks';
 
 import * as hooks from './hooks';
 import messages from './messages';

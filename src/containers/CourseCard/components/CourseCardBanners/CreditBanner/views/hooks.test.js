@@ -1,5 +1,5 @@
 import { MockUseState } from 'testUtils';
-import { apiHooks } from 'hooks';
+import { apiHooks } from '@/hooks';
 import * as hooks from './hooks';
 
 jest.mock('hooks', () => ({
