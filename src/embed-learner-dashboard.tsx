@@ -9,7 +9,6 @@ import store from './data/store';
 
 import App from './App';
 import NoticesWrapper from './components/NoticesWrapper';
-import './embed.scss';
 
 export const LearnerDashboardApp = () => {
 

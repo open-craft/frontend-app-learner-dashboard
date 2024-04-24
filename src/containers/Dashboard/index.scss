@@ -1,4 +1,4 @@
-@import "@openedx/paragon/scss/core/core";
+@import "../../variables.scss";
 
 .course-list-column {
   padding: 0 map-get($spacers, 4);

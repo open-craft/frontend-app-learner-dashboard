@@ -1,4 +1,6 @@
-@import "@openedx/paragon/scss/core/core";
+@import "../../variables.scss";
+@import "@openedx/paragon/src/Card/_variables.scss";  // TODO: fix paragon so these are included in the root vars export
+@import "@openedx/paragon/src/Alert/_variables.scss";
 
 .course-card {
   .card {

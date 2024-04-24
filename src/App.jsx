@@ -29,6 +29,7 @@ import AppWrapper from '@/containers/WidgetContainers/AppWrapper';
 import LearnerDashboardHeader from '@/containers/LearnerDashboardHeader';
 
 import messages from './messages';
+import './App.scss';
 
 export const App = () => {
   const { authenticatedUser } = React.useContext(AppContext);
