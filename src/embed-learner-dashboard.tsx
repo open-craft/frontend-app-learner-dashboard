@@ -12,7 +12,7 @@ import NoticesWrapper from './components/NoticesWrapper';
 
 export const LearnerDashboardApp = () => {
 
-  const { locale } = React.useContext(AppContext);
+  const { locale } = React.useContext(AppContext as React.Context<{locale: string}>);
 
   // TODO: some way to specify {requireAuthenticatedUser: true} ?
 
