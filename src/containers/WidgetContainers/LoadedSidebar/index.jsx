@@ -13,7 +13,6 @@ export const WidgetSidebar = ({ setSidebarShowing }) => {
     return (
       <div className="widget-sidebar">
         <div className="d-flex flex-column">
-          <RecommendationsPanel />
         </div>
       </div>
     );
