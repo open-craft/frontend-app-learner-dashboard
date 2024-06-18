@@ -35,7 +35,7 @@ jest.mock('../hooks', () => ({
 
 jest.mock('data/services/lms/urls', () => ({
   baseAppUrl: (url) => (url),
-  programsUrl: 'http://localhost:18000/dashboard/programs',
+  programsUrl: () => 'http://localhost:18000/dashboard/programs',
 }));
 
 const config = {
